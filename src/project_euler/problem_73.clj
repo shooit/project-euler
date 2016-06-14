@@ -40,7 +40,7 @@
   (count
     (distinct
       (for [d (range (+ d-max 1))
-            n (range (int (Math/ceil (* d min))) (int (Math/floor (* d max))))
+            n (range (int (Math/ceil (* d min))) (int (Math/ceil (* d max))))
               :when (> (/ n d ) min)] ;don't include values equal to min
           (/ n d)))))
 
