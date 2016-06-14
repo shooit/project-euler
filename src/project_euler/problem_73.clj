@@ -45,4 +45,4 @@
           (/ n d)))))
 
 
-(count-fractions (/ 1 3) (/ 1 2) 12000)
+(count-fractions (/ 1 3) (/ 1 2) 12000) ;7295372

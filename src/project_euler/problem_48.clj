@@ -13,4 +13,4 @@
   [max]
   (apply + (for [n (range 1 (+ max 1))] (self-power n))))
 
-(sum-self-powers 10)
+(sum-self-powers 10) ;last 10 digits are 9110846700
